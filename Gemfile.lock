@@ -2,11 +2,24 @@ PATH
   remote: .
   specs:
     creatio (0.1.0)
+      faraday (~> 2.5.2)
 
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (7.0.3.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
     ast (2.4.2)
+    concurrent-ruby (1.1.10)
+    faraday (2.5.2)
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.0)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
     json (2.6.2)
     minitest (5.16.3)
     parallel (1.22.1)
@@ -29,16 +42,20 @@ GEM
     rubocop-ast (1.21.0)
       parser (>= 3.1.1.0)
     ruby-progressbar (1.11.0)
+    ruby2_keywords (0.0.5)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
     unicode-display_width (2.2.0)
 
 PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
+  activesupport (~> 7.0, >= 7.0.3.1)
   creatio!
-  minitest (~> 5.0)
-  rake (~> 13.0)
-  rubocop (~> 1.21)
+  minitest (~> 5.16.3)
+  rake
+  rubocop (~> 1.35.1)
 
 BUNDLED WITH
    2.3.7
