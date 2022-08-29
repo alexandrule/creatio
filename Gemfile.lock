@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     creatio (0.1.0)
-      faraday (~> 2.5.2)
+      faraday
 
 GEM
   remote: https://rubygems.org/
