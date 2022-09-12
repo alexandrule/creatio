@@ -1,5 +1,5 @@
 {
-  "@odata.context": "https://tst-kovalska.terrasoft.ua/0/odata/$metadata#Activity/$entity",
+  "@odata.context": "https://example.com/0/odata/$metadata#Activity/$entity",
   "Id": "cf615377-8160-480d-9abb-8801f585d7e6",
   "Title": "New test activity",
   "CreatedOn": "2022-08-26T14:44:14.8102094Z",

@@ -1,5 +1,5 @@
 {
-  "@odata.context": "https://tst-kovalska.terrasoft.ua/0/odata/$metadata#Lead/$entity",
+  "@odata.context": "https://example.com/0/odata/$metadata#Lead/$entity",
   "Id": "6baf68cb-07ed-46f2-8073-32abae231ec8",
   "CreatedOn": "2022-08-27T11:23:22.456031Z",
   "CreatedById": "537e1367-a6df-48ef-8a2f-22b0c2608d01",

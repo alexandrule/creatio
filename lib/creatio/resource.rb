@@ -9,16 +9,20 @@ module Creatio
     end
 
     def get_request(url, headers: {})
-      client.connection.get(url, default_headers.merge(headers))
+      client.connection.get(url, headers)
     end
 
     def post_request(url, body:, headers: {})
-      client.connection.post(url, body, default_headers.merge(headers))
+      client.connection.post(url, body, headers)
     end
 
-    def default_headers
-      { Authorization: "Bearer #{client.api_key}" }
+    def patch_request(url, body:, headers: {})
+      client.connection.patch(url, body, headers)
     end
+
+    # def default_headers
+    #   { Authorization: "Bearer #{client.api_key}" }
+    # end
 
     # def handle_response(response)
     #   case response.status

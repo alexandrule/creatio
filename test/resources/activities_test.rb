@@ -11,12 +11,12 @@ class ActivitiesResourceTest < Minitest::Test
       "OpportunityId": "0e0ae140-6c03-474c-873f-6f3444e80c5d"
     }
     stub = stub_request(
-      "https://example.com/Activity",
+      "https://example.com/0/odata/Activity",
       response: stub_response(fixture: "activities/create"),
       method: :post,
       body: body
     )
-    client = Creatio::Client.new(base_url: "https://example.com/", api_key: "fake", adapter: :test, stubs: stub)
+    client = Creatio::Client.new(base_url: "https://example.com/0/odata/", api_key: "fake", adapter: :test, stubs: stub)
     activity = client.activities.create(**body)
 
     assert_equal "New test activity", activity.title

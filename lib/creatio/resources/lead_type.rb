@@ -4,7 +4,7 @@ module Creatio
   class LeadTypeResource < Resource
     RESOURCE_NAME = "LeadType"
 
-    def get
+    def retrieve(field, value)
       LeadType.new(get_request(RESOURCE_NAME))
     end
   end

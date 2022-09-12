@@ -1,5 +1,5 @@
 {
-  "@odata.context": "https://tst-kovalska.terrasoft.ua/0/odata/$metadata#Contact",
+  "@odata.context": "https://example.com/0/odata/$metadata#Contact",
   "value": [
     {
       "Id": "d20a4f37-481d-454d-a501-e34793ea3b1b",
