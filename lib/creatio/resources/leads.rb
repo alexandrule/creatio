@@ -13,7 +13,7 @@ module Creatio
       Lead.new(post_request(RESOURCE_NAME, body: attributes).body)
     end
 
-    def update(lead_id: , **attributes)
+    def update(lead_id:, **attributes)
       patch_request("#{RESOURCE_NAME}(#{lead_id})", body: attributes)
     end
   end
