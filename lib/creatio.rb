@@ -5,6 +5,7 @@ require "creatio/version"
 
 module Creatio
   autoload :Client, "creatio/client"
+  autoload :OAuth2, "creatio/oauth2"
   autoload :Error, "creatio/error"
   autoload :Object, "creatio/object"
   autoload :Resource, "creatio/resource"
