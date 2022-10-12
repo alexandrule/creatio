@@ -5,8 +5,9 @@ module Creatio
     RESOURCE_NAME = "Lead"
 
     def retrieve(field, value)
-      query = "?$filter=#{field} eq '#{value}'"
-      Lead.new(get_request("#{RESOURCE_NAME}#{query}").body.dig("value")[0])
+      query = field == 'Id' ? "?$filter=#{field} eq #{value}" : "?$filter=#{field} eq '#{value}'"
+      results = get_request("#{RESOURCE_NAME}#{query}").body.dig("value")
+      results.any? ? Lead.new(results[0]) : []
     end
 
     def create(**attributes)

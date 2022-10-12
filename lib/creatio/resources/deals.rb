@@ -5,8 +5,10 @@ module Creatio
     RESOURCE_NAME = "Opportunity"
 
     def retrieve(field, value)
-      query = "?$filter=#{field} eq '#{value}'"
-      Deal.new(get_request(RESOURCE_NAME + query).body.dig("value")[0])
+      query = field == 'Contact/Id' ? "?$filter=#{field} eq #{value}" : "?$filter=#{field} eq '#{value}'"
+      results = get_request("#{RESOURCE_NAME}#{query}").body.dig("value")
+      results.any? ? Deal.new(results[0]) : []
     end
   end
 end
+

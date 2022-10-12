@@ -27,7 +27,8 @@ module Creatio
     def handle_response(response)
       case response.status
       when 400, 401, 403, 404, 405, 406, 409, 500, 501, 502, 503, 504
-        raise Error, "#{response}"
+        # raise Error, response.body.to_s
+        response.body.to_s
       end
 
       response
