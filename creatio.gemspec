@@ -38,4 +38,5 @@ Gem::Specification.new do |spec|
   # guide at: https://bundler.io/guides/creating_gem.html
 
   spec.add_dependency "faraday"
+  spec.add_dependency "json"
 end

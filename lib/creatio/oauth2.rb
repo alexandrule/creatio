@@ -39,8 +39,8 @@ module Creatio
           token_type: response['token_type']
         }
 
-      rescue Faraday::ConnectionFailed => e
-        raise Creatio::Error::ConnectionFailed, e.message
+      rescue => e
+        raise e.message
       end
     end
   end
