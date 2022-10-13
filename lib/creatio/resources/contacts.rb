@@ -7,6 +7,8 @@ module Creatio
     def retrieve(field, value)
       query = "?$filter=#{field} eq '#{value}'"
       results = get_request("#{RESOURCE_NAME}#{query}").body.dig("value")
+      return unless results
+
       results.any? ? Contact.new(results[0]) : nil
     end
 
