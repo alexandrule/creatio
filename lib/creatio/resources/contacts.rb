@@ -10,6 +10,10 @@ module Creatio
       results.any? ? Contact.new(results[0]) : nil
     end
 
+    def create(**attributes)
+      Contact.new(post_request(RESOURCE_NAME, body: attributes).body)
+    end
+
     def update(contact_id:, **attributes)
       patch_request("#{RESOURCE_NAME}(#{contact_id})", body: attributes)
     end
