@@ -1,0 +1,71 @@
+{
+  "@odata.context": "https://example.com/0/odata/$metadata#ActivityCategory",
+  "value": [
+    {
+      "Id": "e52bd583-7825-e011-8165-00155d043204",
+      "CreatedOn": "2011-01-24T16:10:57.546Z",
+      "CreatedById": "22c5540c-d9b1-49ef-8eb7-72419b78e57c",
+      "ModifiedOn": "2022-09-05T20:08:15.454Z",
+      "ModifiedById": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+      "Name": "Дзвінок",
+      "Description": "",
+      "ActivityTypeId": "e1831dec-cfc0-df11-b00f-001d60e938c6",
+      "ProcessListeners": 0
+    },
+    {
+      "Id": "8038a396-7825-e011-8165-00155d043204",
+      "CreatedOn": "2011-01-24T16:10:57.546Z",
+      "CreatedById": "22c5540c-d9b1-49ef-8eb7-72419b78e57c",
+      "ModifiedOn": "2022-09-05T20:08:14.706Z",
+      "ModifiedById": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+      "Name": "Email",
+      "Description": "",
+      "ActivityTypeId": "e2831dec-cfc0-df11-b00f-001d60e938c6",
+      "ProcessListeners": 0
+    },
+    {
+      "Id": "f51c4643-58e6-df11-971b-001d60e938c6",
+      "CreatedOn": "2011-01-24T16:10:57.546Z",
+      "CreatedById": "22c5540c-d9b1-49ef-8eb7-72419b78e57c",
+      "ModifiedOn": "2022-09-05T20:08:13.765Z",
+      "ModifiedById": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+      "Name": "Виконати",
+      "Description": "",
+      "ActivityTypeId": "fbe0acdc-cfc0-df11-b00f-001d60e938c6",
+      "ProcessListeners": 0
+    },
+    {
+      "Id": "42c74c49-58e6-df11-971b-001d60e938c6",
+      "CreatedOn": "2011-01-24T16:10:57.546Z",
+      "CreatedById": "22c5540c-d9b1-49ef-8eb7-72419b78e57c",
+      "ModifiedOn": "2022-09-05T20:08:14.406Z",
+      "ModifiedById": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+      "Name": "Зустріч",
+      "Description": "",
+      "ActivityTypeId": "fbe0acdc-cfc0-df11-b00f-001d60e938c6",
+      "ProcessListeners": 0
+    },
+    {
+      "Id": "2365ae4f-58e6-df11-971b-001d60e938c6",
+      "CreatedOn": "2011-01-24T16:10:57.546Z",
+      "CreatedById": "22c5540c-d9b1-49ef-8eb7-72419b78e57c",
+      "ModifiedOn": "2022-09-05T20:08:14.081Z",
+      "ModifiedById": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+      "Name": "Письмова робота",
+      "Description": "",
+      "ActivityTypeId": "fbe0acdc-cfc0-df11-b00f-001d60e938c6",
+      "ProcessListeners": 0
+    },
+    {
+      "Id": "03df85bf-6b19-4dea-8463-d5d49b80bb28",
+      "CreatedOn": "2015-05-21T15:40:30.476Z",
+      "CreatedById": "00000000-0000-0000-0000-000000000000",
+      "ModifiedOn": "2022-09-05T20:08:15.033Z",
+      "ModifiedById": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+      "Name": "Дзвінок",
+      "Description": "",
+      "ActivityTypeId": "fbe0acdc-cfc0-df11-b00f-001d60e938c6",
+      "ProcessListeners": 0
+    }
+  ]
+}

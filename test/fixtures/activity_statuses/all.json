@@ -1,0 +1,53 @@
+{
+  "@odata.context": "https://example.com/0/odata/$metadata#ActivityStatus",
+  "value": [
+    {
+      "Id": "384d4b84-58e6-df11-971b-001d60e938c6",
+      "CreatedOn": "0001-01-01T00:00:00Z",
+      "CreatedById": "22c5540c-d9b1-49ef-8eb7-72419b78e57c",
+      "ModifiedOn": "2022-09-05T19:54:16.308Z",
+      "ModifiedById": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+      "Name": "Не розпочата",
+      "Description": "",
+      "Code": "NotStarted",
+      "ProcessListeners": 0,
+      "Finish": false
+    },
+    {
+      "Id": "394d4b84-58e6-df11-971b-001d60e938c6",
+      "CreatedOn": "0001-01-01T00:00:00Z",
+      "CreatedById": "22c5540c-d9b1-49ef-8eb7-72419b78e57c",
+      "ModifiedOn": "2022-09-05T19:54:16.387Z",
+      "ModifiedById": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+      "Name": "В роботі",
+      "Description": "",
+      "Code": "InProgress",
+      "ProcessListeners": 0,
+      "Finish": false
+    },
+    {
+      "Id": "4bdbb88f-58e6-df11-971b-001d60e938c6",
+      "CreatedOn": "0001-01-01T00:00:00Z",
+      "CreatedById": "22c5540c-d9b1-49ef-8eb7-72419b78e57c",
+      "ModifiedOn": "2022-09-05T19:54:16.439Z",
+      "ModifiedById": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+      "Name": "Завершена",
+      "Description": "",
+      "Code": "Finished",
+      "ProcessListeners": 0,
+      "Finish": true
+    },
+    {
+      "Id": "201cfba8-58e6-df11-971b-001d60e938c6",
+      "CreatedOn": "0001-01-01T00:00:00Z",
+      "CreatedById": "22c5540c-d9b1-49ef-8eb7-72419b78e57c",
+      "ModifiedOn": "2022-09-05T19:54:16.486Z",
+      "ModifiedById": "410006e1-ca4e-4502-a9ec-e54d922d2c00",
+      "Name": "Скасована",
+      "Description": "",
+      "Code": "Canceled",
+      "ProcessListeners": 0,
+      "Finish": true
+    }
+  ]
+}

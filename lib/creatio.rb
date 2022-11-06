@@ -18,8 +18,8 @@ module Creatio
   autoload :Lead, 'creatio/objects/lead'
 
   autoload :ActivityResource, 'creatio/resources/activities'
-  autoload :ActivityCategory, 'creatio/resources/activity_categories'
-  autoload :ActivityStatus, 'creatio/resources/activity_statuses'
+  autoload :ActivityCategoryResource, 'creatio/resources/activity_categories'
+  autoload :ActivityStatusResource, 'creatio/resources/activity_statuses'
   autoload :ContactResource, 'creatio/resources/contacts'
   autoload :DealResource, 'creatio/resources/deals'
   autoload :LeadResource, 'creatio/resources/leads'

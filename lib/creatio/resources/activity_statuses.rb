@@ -5,7 +5,7 @@ module Creatio
     RESOURCE_NAME = 'ActivityStatus'
 
     def all
-      get_request(RESOURCE_NAME).map { |activity_status| ActivityStatus.new(activity_status) }
+      get_request(RESOURCE_NAME).body['value'].map { |activity_status| ActivityStatus.new(activity_status) }
     end
   end
 end

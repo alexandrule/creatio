@@ -5,7 +5,7 @@ require "creatio"
 require "minitest/autorun"
 require "faraday"
 require "json"
-require "pry"
+# require "pry"
 
 class Minitest::Test
   def stub_response(fixture: nil, status: 201, headers: { "Content-Type" => "application/json" })
