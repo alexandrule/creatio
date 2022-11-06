@@ -40,7 +40,7 @@ module Creatio
     end
 
     def activity_statuses
-      ActivityStatusesResource.new(self)
+      ActivityStatusResource.new(self)
     end
 
     def activity_categories
