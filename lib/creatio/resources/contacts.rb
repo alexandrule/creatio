@@ -2,11 +2,11 @@
 
 module Creatio
   class ContactResource < Resource
-    RESOURCE_NAME = "Contact"
+    RESOURCE_NAME = 'Contact'
 
     def retrieve(field, value)
       query = "?$filter=#{field} eq '#{value}'"
-      results = get_request("#{RESOURCE_NAME}#{query}").body.dig("value")
+      results = get_request("#{RESOURCE_NAME}#{query}").body.dig('value')
       return unless results
 
       results.any? ? Contact.new(results[0]) : nil
