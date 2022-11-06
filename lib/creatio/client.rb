@@ -38,5 +38,13 @@ module Creatio
     def leads
       LeadResource.new(self)
     end
+
+    def activity_statuses
+      ActivityStatusesResource.new(self)
+    end
+
+    def activity_categories
+      ActivityCategoryResource.new(self)
+    end
   end
 end
