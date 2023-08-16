@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Creatio
-  class ContactResource < Resource
+  class ContactResource < ItemResource
     RESOURCE_NAME = 'Contact'
 
     def retrieve(field, value)

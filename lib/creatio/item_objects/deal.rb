@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
 module Creatio
-  class ActivityCategory < Object
+  class Deal < ItemObject
   end
 end

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Creatio
-  class ActivityCategoryResource < Resource
+  class ActivityCategoryResource < ItemResource
     RESOURCE_NAME = 'ActivityCategory'
 
     def all

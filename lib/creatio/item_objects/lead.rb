@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
 module Creatio
-  class Contact < Object
+  class Lead < ItemObject
   end
 end
