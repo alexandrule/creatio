@@ -6,7 +6,7 @@ require "active_support/all"
 module Creatio
   class ItemObject
     def initialize(attrs_in)
-      attrs = attrs_in.transform_keys(&:underscore).symbolize_keys
+      attrs = attrs_in.transform_keys { |k| k.to_s.underscore.to_sym }
       raise("No id in attrs. id required. attrs_in=[#{ attrs_in.inspect }]") unless attrs[:id]
       @attributes = OpenStruct.new(attrs)
     end
