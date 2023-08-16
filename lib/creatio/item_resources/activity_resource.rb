@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Creatio
-  class ActivityResource < Resource
+  class ActivityResource < ItemResource
     RESOURCE_NAME = 'Activity'
 
     def create(**attributes)

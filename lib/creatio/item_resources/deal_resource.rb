@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Creatio
-  class DealResource < Resource
+  class DealResource < ItemResource
     RESOURCE_NAME = 'Opportunity'
 
     def retrieve(field, value)
