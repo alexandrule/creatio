@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Creatio
-  class ContactResource < Resource
+  class ContactResource < ItemResource
     RESOURCE_NAME = 'Contact'
 
     def retrieve(field, value)
@@ -13,6 +13,10 @@ module Creatio
     end
 
     def create(**attributes)
+      Contact.new(post_request(RESOURCE_NAME, body: attributes).body)
+    end
+
+    def create2(attributes)
       Contact.new(post_request(RESOURCE_NAME, body: attributes).body)
     end
 

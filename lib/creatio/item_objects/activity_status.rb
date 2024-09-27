@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
 module Creatio
-  class Activity < Object
+  class ActivityStatus < ItemObject
   end
 end

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Creatio
-  class LeadTypesResource < Resource
+  class LeadTypeResource < ItemResource
     RESOURCE_NAME = 'LeadType'
 
     def retrieve(field, value)

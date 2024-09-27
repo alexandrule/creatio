@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
 module Creatio
-  class Lead < Object
+  class Activity < ItemObject
   end
 end
